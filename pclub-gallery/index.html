@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PClub Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>PClub Photo Gallery</h1>
+        <!-- Filter Buttons -->
+        <div id="filter-buttons">
+            <button data-category="all" class="filter-btn active">All</button>
+            <button data-category="nature" class="filter-btn">Nature</button>
+            <button data-category="architecture" class="filter-btn">Architecture</button>
+            <button data-category="people" class="filter-btn">People</button>
+        </div>
+        <button id="theme-toggle">🌙 Toggle Theme</button>
+    </header>
+
+    <section class="gallery" id="gallery">
+        <!-- Images will be loaded dynamically -->
+    </section>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img id="lightbox-img" src="" alt="Full-size Image">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
