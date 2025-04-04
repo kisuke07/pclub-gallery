@@ -62,6 +62,6 @@ It includes **category filters, image hover captions, a lightbox feature, and da
 ## 📁 How to Run Locally
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/pclub-gallery.git
+git clone https://github.com/kisuke07/pclub-gallery.git
 cd pclub-gallery
 open index.html
